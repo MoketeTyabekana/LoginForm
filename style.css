@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1713877561507-881bf3b1c310?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDF8fHxlbnwwfHx8fHw%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.form-div{
+    min-width: 300px;
+    max-width: 400px;
+    height: fit-content;
+    border: 1px solid rgba(128, 128, 128, 0.484);
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 200px auto;
+    
+    
+}
+
+.form-div form{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  justify-self: center;
+  padding: 30px ;
+}
+
+.form-div form input {
+ width: 100%;
+ padding: 15px;
+ border: 0.5px solid rgb(0, 4, 105);
+ border-radius: 3px;
+ font-size: 16px;
+}
+
+.form-div form label{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(0, 4, 105);
+}
+
+.form-div form .submit{
+    background-color: rgb(0, 4, 105);
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.form-div form .submit:hover{
+    background-color: rgb(0, 74, 171);
+    transition: 0.3S ease-in;
+    border:#fff;
+
+}
+
+.form-div form h1{
+    text-align: center;
+    font-weight: 900;
+    color: rgb(0, 4, 105);
+
+}
+
+.form-div form ::placeholder{
+    color: rgba(43, 43, 43, 0.426);
+    font-size: medium;
+}
